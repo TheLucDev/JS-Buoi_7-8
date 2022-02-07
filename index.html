@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container py-5">
+      <h1 class="pb-4">Bài tập JS___Buổi 7-8</h1>
+      <div class="form-group d-flex">
+        <input type="number"
+          class="form-control w-50" name="" id="themSo" aria-describedby="helpId" placeholder="Thêm số nguyên vào mảng">
+          <button class="btn btn-success" onclick="themVao()">Thêm</button>
+        </div>
+        <h4>Mảng nhận được : <p id="txtMang" ></p></h4>
+
+        <h4>1. Tổng các số dương trong mảng = <p style="display: inline;" id="bai1Kq"></p> <button class="btn btn-success ml-4" onclick="bai1()">Kết quả</button> </h4>
+
+        <h4>2. Có bao nhiêu số dương trong mảng : <p style="display: inline;" id="bai2Kq"></p> <button class="btn btn-success ml-4" onclick="bai2()">Kết quả</button> </h4>
+
+        <h4>3. Số nhỏ nhất trong mảng : <p style="display: inline;" id="bai3Kq"></p> <button class="btn btn-success ml-4" onclick="bai3()">Kết quả</button> </h4>
+
+        <h4>4. Số dương nhỏ nhất trong mảng : <p style="display: inline;" id="bai4Kq"></p> <button class="btn btn-success ml-4" onclick="bai4()">Kết quả</button> </h4>
+
+        <h4>5. Số chẵn cuối cùng trong mảng : <p style="display: inline;" id="bai5Kq"></p> <button class="btn btn-success ml-4" onclick="bai5()">Kết quả</button> </h4>
+
+        <h4>6. Đổi chỗ 2 giá trị theo vị trí:  </h4>
+        <div class="form-group">
+          <label for="">Vị trí 1</label>
+          <input type="number"
+            class="form-control w-50" name="" id="viTri1" aria-describedby="" placeholder="">
+        </div>
+        <div class="form-group">
+          <label for="">Vị trí 2</label>
+          <input type="number"
+            class="form-control w-50" name="" id="viTri2" aria-describedby="" placeholder="">
+        </div>
+        <button class="btn btn-success ml-4" onclick="bai6()">Đổi chỗ</button>
+        <h4>Sau khi đổi chỗ : <p id="bai6Kq"></p> </h4>
+
+        <h4>7. Sắp xếp mảng tăng dần : <p style="display: inline;" id="bai7Kq"></p> <button class="btn btn-success ml-4" onclick="bai7()">Kết quả</button> </h4>
+
+        <h4>8. Số nguyên tố đầu tiên trong mảng : <p style="display: inline;" id="bai8Kq"></p> <button class="btn btn-success ml-4" onclick="bai8()">Kết quả</button> </h4>
+
+        <h4>9. Thêm mảng số thực,tìm số nguyên</h4>
+        <div class="form-group d-flex">
+          <input type="number"
+            class="form-control w-50" name="" id="themSoThuc" aria-describedby="helpId" placeholder="Thêm số thực">
+            <button class="btn btn-success" onclick="themFloat()">Thêm mảng</button>
+          </div>
+          <h4>Mảng số thực : <p style="display: inline;" id="txtMangfloat" ></p></h4>
+        <button class="btn btn-success" onclick="bai9()">Kết quả</button>
+        <h4>Tổng số nguyên : <p style="display: inline;" id="bai9Kq"></p> </h4>
+
+        <h4>10. So sánh số dương và âm trong mảng : <p style="display: inline;" id="bai10Kq"></p> <button class="btn btn-success ml-4" onclick="bai10()">So sánh</button> </h4>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./baitap.js"></script>
+  </body>
+</html>
